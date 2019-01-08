@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-08 07:22:54</sys_created_on>
+        <sys_id>ed0e9172db722300f8e19fd2ca961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_294338_demohrser_employeerequest.x_294338_demohrser.employeerequest_user</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_security_acl display_value="x_294338_demohrser_employeerequest">e50e9172db722300f8e19fd2ca961923</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ed0e9172db722300f8e19fd2ca961925</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-08 07:22:54</sys_updated_on>
+        <sys_user_role display_value="x_294338_demohrser.employeerequest_user" name="x_294338_demohrser.employeerequest_user">250e1d32db722300f8e19fd2ca9619d3</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="EmployeeRequest" max_length="40" name="x_294338_demohrser_employeerequest" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employee_Id" mandatory="true" max_length="40" name="number" type="string"/>
+        <element label="Employee_Name" mandatory="true" max_length="80" name="u_field_name_1" type="field_name"/>
+    </element>
+</database>
