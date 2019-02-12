@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_294338_demohrser.employeerequest_user" name="x_294338_demohrser.employeerequest_user">250e1d32db722300f8e19fd2ca9619d3</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-01-08 07:22:54</sys_created_on>

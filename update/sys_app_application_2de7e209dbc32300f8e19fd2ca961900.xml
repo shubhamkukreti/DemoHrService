@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>Employee Tasks</name>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-15 12:32:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2de7e209dbc32300f8e19fd2ca961900</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Employee Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_app_application_2de7e209dbc32300f8e19fd2ca961900</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-16 07:20:23</sys_updated_on>
+        <title>Employee Tasks</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

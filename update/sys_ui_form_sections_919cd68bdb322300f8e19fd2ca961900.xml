@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="919cd68bdb322300f8e19fd2ca961900" sys_domain="global" table="x_294338_demohrser_employeerequest" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:34:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>159cd68bdb322300f8e19fd2ca961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_294338_demohrser_employeerequest" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">919cd68bdb322300f8e19fd2ca961900</sys_ui_form>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-09 06:34:43</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_294338_demohrser_employeerequest</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:34:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>919cd68bdb322300f8e19fd2ca961900</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_294338_demohrser_employeerequest</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+            <sys_update_name>sys_ui_form_sections_919cd68bdb322300f8e19fd2ca961900</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-09 06:34:43</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

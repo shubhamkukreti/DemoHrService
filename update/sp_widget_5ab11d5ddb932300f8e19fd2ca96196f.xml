@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn button {	
+color: #fff;
+background-color: #0574DE;
+display: inline-block;
+margin-bottom: 0;
+font-weight: normal;
+text-align: center;
+vertical-align: middle;
+touch-action: manipulation;
+cursor: pointer;
+background-image: none;
+border: 1px solid transparent;
+white-space: nowrap;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.42857;
+user-select: none;
+border-radius: 4px;
+margin-right: 0px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>hr_links</id>
+        <internal>false</internal>
+        <link/>
+        <name>Hr Links</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-28 11:09:41</sys_created_on>
+        <sys_id>5ab11d5ddb932300f8e19fd2ca96196f</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_name>Hr Links</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sp_widget_5ab11d5ddb932300f8e19fd2ca96196f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-28 11:35:13</sys_updated_on>
+        <template><![CDATA[<div class="btn">
+<button  onclick="location.href = 'x_294338_demohrser_Employee Details.do';" id="myButton" class="float-left submit-button" >Employee Boarding</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>

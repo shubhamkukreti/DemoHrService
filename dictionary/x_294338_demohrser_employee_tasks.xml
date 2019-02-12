@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Employee Tasks" max_length="40" name="x_294338_demohrser_employee_tasks" sizeclass="4" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#FF0005;33:#FFB6C5;66:#FF4500;90:#008000,target_field=target" label="% complete" max_length="40" name="complete" type="percent_complete"/>
+        <element label="Target" max_length="20" name="target" type="decimal"/>
+        <element label="Assigned to" max_length="32" name="u_assigned_to" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="test" max_length="40" name="u_string_1" type="string"/>
+        <element label="Task Assigned By" mandatory="true" max_length="32" name="u_task_assigned_by" reference="sys_user" type="reference"/>
+    </element>
+</database>

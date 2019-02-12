@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[window.onload = onPageLoadAccess;
+// window.onload = onPageLoad;
+var currentTab = 0; // Current tab is set to be the first tab (0)
+showTab(currentTab); // Display the crurrent tab
+var accessArr = [];
+
+function showTab(n) {
+  // This function will display the specified tab of the form...
+  var x = document.getElementsByClassName("tab");
+  x[n].style.display = "block";
+  //... and fix the Previous/Next buttons:
+  if (n == 0) {
+    document.getElementById("prevBtn").style.display = "none";
+	  document.getElementById("nextBtn").disabled = false;
+  } else {
+    document.getElementById("prevBtn").style.display = "inline";
+	  document.getElementById("nextBtn").disabled = false;
+  }
+  if (n == (x.length - 1)) {
+		 document.getElementById("nextBtn").disabled = true;
+		 document.getElementById("nextBtn").style.backgroundColor = "";
+		 document.getElementById("nextBtn").innerHTML = "Submit";
+  } else {
+    document.getElementById("nextBtn").innerHTML = "Next";
+  }
+  //... and run a function that will display the correct step indicator:
+  fixStepIndicator(n);
+}
+
+function onCheckbox(){
+ if(document.getElementById('agree').checked) {
+		  document.getElementById("nextBtn").disabled = false;
+		  document.getElementById("warning").style.display = "none";
+		  document.getElementById("nextBtn").style.backgroundColor = "#278efc";
+        } 
+	else {
+			document.getElementById("nextBtn").disabled = true;
+			document.getElementById("warning").style.display = "block";
+			document.getElementById("nextBtn").style.backgroundColor = "";
+        }
+}
+	
+
+function nextPrev(n) {
+  // This function will figure out which tab to display
+  var x = document.getElementsByClassName("tab");
+  // Exit the function if any field in the current tab is invalid:
+//   if (n == 1 && !validateForm()) return false;
+  // Hide the current tab:
+  x[currentTab].style.display = "none";
+  // Increase or decrease the current tab by 1:
+  currentTab = currentTab + n;
+  // if you have reached the end of the form...
+  if (currentTab >= x.length) {
+    // ... the form gets submitted:
+	  saveValues();
+    document.getElementById("regForm").submit();
+    return false;
+  }
+  // Otherwise, display the correct tab:
+  showTab(currentTab);
+} 
+
+function validateForm() {
+  // This function deals with validation of the form fields
+  var x, y, i, valid = true;
+  x = document.getElementsByClassName("tab");
+  y = x[currentTab].getElementsByTagName("input");
+  // A loop that checks every input field in the current tab:
+  for (i = 0; i < y.length; i++) {
+    // If a field is empty...
+    if (y[i].value == "") {
+      // add an "invalid" class to the field:
+      y[i].className += " invalid";
+      // and set the current valid status to false
+      valid = false;
+    }
+  }
+  // If the valid status is true, mark the step as finished and valid:
+  if (valid) {
+    document.getElementsByClassName("step")[currentTab].className += " finish";
+  }
+  return valid; // return the valid status
+}
+
+function fixStepIndicator(n) {
+  // This function removes the "active" class of all steps...
+  var i, x = document.getElementsByClassName("step");
+  for (i = 0; i < x.length; i++) {
+    x[i].className = x[i].className.replace(" active", "");
+  }
+  //... and adds the "active" class on the current step:
+  x[n].className += " active";
+}
+function saveValues() {
+	var fname = document.getElementById("fname").value;
+	var lname = document.getElementById("lname").value;
+	var gender = document.getElementById("gender").value;
+	var email = document.getElementById("email").value;
+	var phone = document.getElementById("phone").value;
+	var address = document.getElementById("address").value;
+	var user_id = g_user.userID;
+	var u_manager = accessArr[0].set_user_manager;
+	var man_email = accessArr[1].set_manager_email;
+	
+	 var test = new GlideRecord('x_294338_demohrser_employee_boarding');
+
+      //test.initialize();
+
+    test.setValue('first_name',fname);
+    test.setValue('last_name',lname);
+	test.setValue('u_gender',gender);
+	test.setValue('u_email',email);
+	test.setValue('phone_number',phone);
+	test.setValue('complete_address',address);
+	test.setValue('boarding_user',user_id);
+	test.setValue('u_manager',u_manager);
+	test.setValue('manager_email',man_email);
+	
+      test.insert();
+//       test.update();
+
+}
+
+function onPageLoad(){
+	var user_id = g_user.userID;
+	
+var rec = new GlideRecord('x_294338_demohrser_employee_boarding');
+	rec.addQuery('boarding_user',user_id);
+	rec.query();
+while(rec.next()) {
+//   gs.print(rec.complete_address + ' exists');
+	var table_reply = rec.boarding_user;
+	if (user_id == table_reply){
+		document.getElementById("boading_page").style.display = "none";
+		document.getElementById("non_boading_page").style.display = "block";
+	}
+}
+}
+
+function onPageLoadAccess(){
+	var user_id = g_user.userID;
+	var rec = new GlideRecord('sys_user');
+	rec.addQuery('sys_id',user_id);
+	rec.query();
+	while(rec.next()) {
+// 	  gs.print(rec.complete_address + ' exists');
+		
+		var user_manager = rec.manager;
+		
+	if (user_manager!=''){
+		var manager_rec = new GlideRecord('sys_user');
+		manager_rec.addQuery('sys_id',user_manager);
+		manager_rec.query();
+		while(manager_rec.next()) {
+			var set_user_manager = manager_rec.manager;
+			var set_manager_email = manager_rec.email;
+			accessArr.push({set_user_manager:set_user_manager},{set_manager_email:set_manager_email});
+		}		
+	}
+	}
+	onPageLoad();
+}
+]]></client_script>
+        <description>Employee details for on boarding.</description>
+        <direct>false</direct>
+        <endpoint>x_294338_demohrser_Employee Details.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>   
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">   
+<!-- <iframe src="$vtb.do" style="width: 100%; height: 700px;"/>    -->
+ 
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+#regForm {
+  background-color: #ffffff;
+  margin: 100px auto;
+  font-family: Raleway;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  font-family: Raleway;
+  border: 1px solid #aaaaaa;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #278efc;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #278efc;
+  color: #ffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  font-family: Raleway;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #bbbbbb;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #278efc;
+  border: none;  
+  border-radius: 50%;
+  display: inline-block;
+  opacity: 0.5;
+}
+
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #278efc;
+}
+	.gender {
+	 padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+	}
+	
+.decleration {
+	text-align: justify;
+	text-justify: inter-word;
+	font-size: large;
+	}
+.alreadyExist{
+	font-size: 20px;
+    text-align: center;
+    margin-top: 10%;
+	}
+</style>
+<div id="boading_page">
+<form id="regForm" action="https://dev69035.service-now.com/HR/?id=hr_index">
+  <h1>Enter your Detals</h1>
+  <!-- One "tab" for each step in the form: -->
+  <div class="tab"><b><i>Personal Details:</i></b>
+    <p><input placeholder="First name..." id="fname" name="fname"/></p>
+    <p><input placeholder="Last name..." id="lname" name="lname"/></p>
+	 <div style="padding-bottom: 10px;">
+		 <b><i>Gender:</i></b>
+		 <br/>
+		<select class="gender" id="gender" name="gender">
+		  <option value="">Select Gender</option>
+		  <option value="Male">Male</option>
+		  <option value="Female">Female</option>
+		  <option value="Other">Other</option>
+		</select> 
+	  </div>
+  </div>
+  <div class="tab">Contact Info:
+    <p><input placeholder="E-mail..." id="email" name="email"/></p>
+    <p><input placeholder="Phone..." id="phone" name="phone"/></p>
+	<p><input placeholder="Complete Address" id="address" name="address"/></p>
+  </div>
+  <div class="tab">Birthday:
+    <p><input placeholder="dd" id="dd" name="dd"/></p>
+    <p><input placeholder="mm" id="mm" name="mm"/></p>
+    <p><input placeholder="yyyy" id="yy" name="yyyy"/></p>
+  </div>
+  <div class="tab">
+	  <b><i>Declaration :</i></b>
+	  <div class="decleration">
+    <p>Please read these Terms of Use ("Terms", "Terms of Use") carefully before using the http://www.mywebsite.com (change this) website and the My Mobile App (change this) mobile application (the "Service") operated by My Company (change this) ("us", "we", or "our").
+
+Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.
+
+By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms then you may not access the Service.</p>
+	  </div>
+	  <p>
+	  <input style="width: 5%;" type="checkbox" name="checkbox" id="agree" onclick="onCheckbox()"> I have read and agree to the Terms and Conditions and Privacy Policy</input>
+		  </p>
+	  <p style="color:red" id="warning">
+		  Please check to Continue.... 
+	  </p>
+  </div>
+  <div style="overflow:auto;">
+    <div style="float:right;">
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button style="background-color: #278efc; color: #ffff;" type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+<!-- 		<button type="button" onclick="saveValues()">push alert</button> -->
+    </div>
+  </div>
+  <!-- Circles which indicates the steps of the form: -->
+  <div style="text-align:center;margin-top:40px;">
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+    <span class="step"></span>
+  </div>
+</form>
+	</div>
+	<div class="alreadyExist" style="display:none;" id="non_boading_page">
+		<p>
+			You have already boarder on the portal.
+		</p>
+	</div>
+	
+	</j:jelly>  ]]></html>
+        <name>Employee Details</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-24 12:12:43</sys_created_on>
+        <sys_id>10887848dbd32300f8e19fd2ca961984</sys_id>
+        <sys_mod_count>240</sys_mod_count>
+        <sys_name>Employee Details</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_ui_page_10887848dbd32300f8e19fd2ca961984</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-01 13:19:41</sys_updated_on>
+    </sys_ui_page>
+</record_update>

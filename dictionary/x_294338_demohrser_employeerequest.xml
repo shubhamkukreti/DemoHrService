@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="EmployeeRequest" max_length="40" name="x_294338_demohrser_employeerequest" type="collection">
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Employee_Id" mandatory="true" max_length="40" name="number" type="string"/>
-        <element label="Employee_Name" mandatory="true" max_length="80" name="u_field_name_1" type="field_name"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Request_Id" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type Of Request" mandatory="true" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element label="Leave" sequence="0" value="leave"/>
+                <element label="Payroll Issue" sequence="1" value="payroll_issue"/>
+                <element label="Travel Request" sequence="2" value="travel_request"/>
+                <element label="Policy Details" sequence="3" value="policy_details"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="request_open" label="Request Statustemp" max_length="40" name="u_choice_5" read_only="true" type="string">
+            <choice>
+                <element label="Request open" sequence="0" value="request_open"/>
+                <element label="Request On Hold" sequence="1" value="request_on_hold"/>
+                <element label="Closed Accepted" sequence="2" value="closed_accepted"/>
+                <element label="Closed Rejected" sequence="3" value="closed_rejected"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Employee_Id" max_length="40" name="u_employee_id" type="string"/>
+        <element label="Requested On" mandatory="true" max_length="40" name="u_glide_date_3" type="glide_date"/>
+        <element label="Requested For" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element choice="3" default="1" label="Request Status" max_length="40" name="u_request_status" type="integer">
+            <choice>
+                <element label="Request Open" sequence="0" value="1"/>
+                <element label="Request In Progress" sequence="1" value="2"/>
+                <element label="Closed &amp; Accepted" sequence="2" value="3"/>
+                <element label="Closed &amp; Rejected" sequence="3" value="4"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Employee_Name" max_length="40" name="u_string_1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Request Description" max_length="500" name="u_string_4" type="string"/>
+        <index name="index">
+            <element name="u_requested_for"/>
+        </index>
     </element>
 </database>

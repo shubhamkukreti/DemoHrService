@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">a107f3c2db532300f8e19fd2ca961983</grid_canvas>
+        <height>3</height>
+        <portal_widget display_value="Created 2019-01-31 14:53:43">5336109adb932300f8e19fd2ca961952</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-31 09:23:43</sys_created_on>
+        <sys_id>1336109adb932300f8e19fd2ca961955</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>a107f3c2db532300f8e19fd2ca961983</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_1336109adb932300f8e19fd2ca961955</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 09:32:58</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

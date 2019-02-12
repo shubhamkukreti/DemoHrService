@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>When the developer updates its task status.</description>
+        <field>state</field>
+        <global>true</global>
+        <messages/>
+        <name>User Task Update</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	var taskStatus = g_form.getValue('state');
+	var asignedTo = g_form.getValue('u_task_assigned_by');
+	var asignedBy = g_form.getValue('u_assigned_to');
+	var updatedBy = g_form.getValue('sys_updated_by');
+	if (parseInt(taskStatus) === 8){
+		//     var asignedTo = g_form.getValue('sys_updated_by');
+	g_form.setValue('u_assigned_to',asignedTo);
+	}
+	else if (parseInt(taskStatus) === 8 || parseInt(taskStatus) === 3 || parseInt(taskStatus) === 4
+			|| parseInt(taskStatus) === 7){
+		//     var asignedTo = g_form.getValue('sys_updated_by');
+	g_form.setValue('u_assigned_to',asignedTo);
+	}
+	else if (parseInt(newValue) !== 8 && asignedBy !== g_user.userID){
+		g_form.setValue('u_assigned_to',asignedTo);
+		g_form.setValue('u_task_assigned_by',asignedBy);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-17 07:23:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>15b3f321db432300f8e19fd2ca9619d2</sys_id>
+        <sys_mod_count>33</sys_mod_count>
+        <sys_name>User Task Update</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_script_client_15b3f321db432300f8e19fd2ca9619d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-17 12:35:05</sys_updated_on>
+        <table>x_294338_demohrser_employee_tasks</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

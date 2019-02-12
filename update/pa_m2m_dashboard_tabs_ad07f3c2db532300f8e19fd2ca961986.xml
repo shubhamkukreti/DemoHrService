@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="New User HR App">d1c6ff42db532300f8e19fd2ca96196a</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-31 07:07:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad07f3c2db532300f8e19fd2ca961986</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>d1c6ff42db532300f8e19fd2ca96196a</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_ad07f3c2db532300f8e19fd2ca961986</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-31 07:07:20</sys_updated_on>
+        <tab display_value="New Tab">2107f3c2db532300f8e19fd2ca961985</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

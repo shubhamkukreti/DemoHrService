@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,RPT269149a3dbd32300f8e19fd2ca961949</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-04 10:28:30</sys_created_on>
+        <sys_id>276b4dabdbd32300f8e19fd2ca961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,rpt269149a3dbd32300f8e19fd2ca961949</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_ui_view_276b4dabdbd32300f8e19fd2ca961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-04 10:28:30</sys_updated_on>
+        <title>Sys_popup,rpt269149a3dbd32300f8e19fd2ca961949</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

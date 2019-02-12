@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($scope, spKBCategoryService, $location, $rootScope, urlTools) {
+	var c = this;
+	spKBCategoryService.addDefaultListener(function(catId){
+		$location.search({id: 'kb_category', kb_category: catId});
+	});
+	
+	c.setCategory = function(evt, catId) {
+		evt.preventDefault();
+		var searchParms = $location.search();
+		searchParms.kb_category = catId;
+		searchParms.spa = 1;
+		$location.search(searchParms);
+		spKBCategoryService.setCategoryId(catId);
+	};
+	
+	// Location change handler for back/forward buttons
+	var removeLw = $rootScope.$on('$locationChangeSuccess', function(e, newUrl) {
+		var urlParts = urlTools.parseQueryString(newUrl)
+		if (urlParts.id === 'kb_category' && spKBCategoryService.getCategoryId() !== urlParts.kb_category)
+			spKBCategoryService.setCategoryId(urlParts.kb_category);
+	});
+	
+	$scope.$on('$destroy', function(){
+		removeLw();
+	});
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.label {
+  float: right;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+fa {
+  margin-right: 10px;
+}
+
+.panel-body &gt; .list-group {
+  margin-bottom: 0px;
+  padding: 10px;
+
+  li.list-group-item {
+    color: #428bca;
+  	border: 0;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+
+    .label {
+      border-radius: 1em;
+      float: right;
+    }
+  }
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>kb_categories_-_kbv3_clone_hr_</id>
+        <internal>false</internal>
+        <link/>
+        <name>KB Categories - KBv3(Clone_Hr)</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	data.catParam = $sp.getParameter("kb_category");
+	data.kb = $sp.getValue("kb_knowledge_base");
+	var cats = new GlideRecord("kb_category");
+	if (data.catParam)
+		cats = $sp.getKBSiblingCategories(data.catParam);
+	else {
+		cats.addActiveQuery();
+		cats.addQuery("parent_id", data.kb);
+		cats.query();
+	}
+
+	data.categories = [];
+	while (cats.next()) {
+		var articleCount = -1;
+		var kbCount = $sp.getKBCount(data.kb);
+		if (kbCount < 500) { // if more than 500 articles, don't iterate to get viewable counts
+			var arts = $sp.getKBCategoryArticleSummaries(cats.getUniqueValue(), 0, 0);
+			articleCount = arts.length;
+		}
+		data.categories.push({label: cats.getDisplayValue("label"), value: cats.getUniqueValue(), count: articleCount});
+	}
+})()
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-23 11:30:09</sys_created_on>
+        <sys_id>2976ab63dbc32300f8e19fd2ca961958</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>KB Categories - KBv3(Clone_Hr)</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sp_widget_2976ab63dbc32300f8e19fd2ca961958</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-24 06:47:04</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-{{::c.options.color}} b">
+  <div class="panel-heading">
+    <h1 class="h4 panel-title" ng-bind="::c.options.title">
+      <fa ng-if="c.options.glyph" name="{{c.options.glyph}}" />
+    </h1>
+  </div>
+  <div class="panel-body">
+    <ul class="list-group">
+      <li ng-repeat="category in c.data.categories | orderBy:'label'"
+          ng-if="category.count"
+          class="list-group-item">
+        <a tabindex="0" ng-click="c.setCategory($event, category.value)" ng-href="?id=kb_category&kb_category={{::category.value}}">
+          <span class="label label-as-badge label-primary" ng-if="category.count > 0" tabindex="-1">{{::category.count}}</span>
+          {{::category.label}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

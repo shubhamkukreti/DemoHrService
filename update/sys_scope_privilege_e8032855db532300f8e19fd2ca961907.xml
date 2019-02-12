@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>Shamim.Malik</sys_created_by>
+        <sys_created_on>2019-01-28 07:45:35</sys_created_on>
+        <sys_id>e8032855db532300f8e19fd2ca961907</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: properties</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_scope_privilege_e8032855db532300f8e19fd2ca961907</sys_update_name>
+        <sys_updated_by>Shamim.Malik</sys_updated_by>
+        <sys_updated_on>2019-01-28 07:45:35</sys_updated_on>
+        <target_name>Glide API: properties</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

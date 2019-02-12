@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="content_block_static">
+    <content_block_static action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <condition/>
+        <conditional>false</conditional>
+        <frame/>
+        <logged_on>false</logged_on>
+        <name>My Links</name>
+        <static_content><![CDATA[<p><a title="My Hr Portal Page" href="https://dev69035.service-now.com/HR/?id&#61;hr_index" rel="nofollow">My Hr Portal Page</a></p>]]></static_content>
+        <sys_class_name>content_block_static</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-04 06:46:21</sys_created_on>
+        <sys_id>55285c27db532300f8e19fd2ca9619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Links</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>content_block_static_55285c27db532300f8e19fd2ca9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-04 06:46:21</sys_updated_on>
+    </content_block_static>
+    <sys_translated_text action="delete_multiple" query="documentkey=55285c27db532300f8e19fd2ca9619bd"/>
+</record_update>

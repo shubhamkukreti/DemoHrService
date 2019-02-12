@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>To send the task update in Ms-Teams</description>
+        <label_cache>[]</label_cache>
+        <name>Task Notification Ms-Teams</name>
+        <parent_flow display_value="Task Notification Ms-Teams">6a4b05fcdb232300d04a1fc768961916</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-08 07:43:34</sys_created_on>
+        <sys_id>ae0c45f8db232300d04a1fc7689619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task Notification Ms-Teams</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_ae0c45f8db232300d04a1fc7689619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-08 07:43:34</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

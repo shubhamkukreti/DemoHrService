@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Employee Details" section_id="3dc95287db322300f8e19fd2ca9619b6" sys_domain="global" table="x_294338_demohrser_employeerequest" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>28b1a5cbdbc32300f8e19fd2ca961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_employee_id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>a8b1a5cbdbc32300f8e19fd2ca961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_1</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>2cb1a5cbdbc32300f8e19fd2ca961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>acb1a5cbdbc32300f8e19fd2ca961964</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>20b1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_4</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>a0b1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>24b1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_requested_for</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>a4b1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_2</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>28b1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_3</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>a8b1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_request_status</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>2cb1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-21 12:33:07</sys_created_on>
+            <sys_id>acb1a5cbdbc32300f8e19fd2ca961965</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Employee Details" display_value="Employee Details" name="x_294338_demohrser_employeerequest" sys_domain="global" view="Default view">3dc95287db322300f8e19fd2ca9619b6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-21 12:33:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Employee Details</caption>
+            <header>false</header>
+            <name>x_294338_demohrser_employeerequest</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:22:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dc95287db322300f8e19fd2ca9619b6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Employee Details</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+            <sys_update_name>sys_ui_section_3dc95287db322300f8e19fd2ca9619b6</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-09 06:34:43</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

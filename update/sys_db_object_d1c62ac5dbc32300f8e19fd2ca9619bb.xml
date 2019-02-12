@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Employee Tasks</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_294338_demohrser_employee_tasks</name>
+        <number_ref display_value="EMP_TSK">f2086e01dbc32300f8e19fd2ca9619df</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <super_class display_value="Task" name="task">6ccad1555d121300651727c3e282e84a</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-15 12:32:01</sys_created_on>
+        <sys_id>d1c62ac5dbc32300f8e19fd2ca9619bb</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Employee Tasks</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_db_object_d1c62ac5dbc32300f8e19fd2ca9619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-16 09:54:54</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_294338_demohrser.employee_tasks_user" name="x_294338_demohrser.employee_tasks_user">a9e72209dbc32300f8e19fd2ca961965</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

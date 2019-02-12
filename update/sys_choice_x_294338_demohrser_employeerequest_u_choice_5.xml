@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_choice_5" table="x_294338_demohrser_employeerequest" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Close Complete</label>
+            <language>en</language>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:43:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bdae9acbdb322300f8e19fd2ca96191e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 06:14:43</sys_updated_on>
+            <value>close_complete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request open</label>
+            <language>en</language>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:43:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7dae9acbdb322300f8e19fd2ca96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-09 06:43:46</sys_updated_on>
+            <value>request_open</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Close Incomplete</label>
+            <language>en</language>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:43:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3dae9acbdb322300f8e19fd2ca96191f</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 06:14:43</sys_updated_on>
+            <value>close_incomplete</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request On Hold</label>
+            <language>en</language>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 06:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c03be47bdb322300f8e19fd2ca96192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 06:14:43</sys_updated_on>
+            <value>request_on_hold</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Accepted</label>
+            <language>en</language>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 06:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>443be47bdb322300f8e19fd2ca96192c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 06:14:43</sys_updated_on>
+            <value>closed_accepted</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_choice_5</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Rejected</label>
+            <language>en</language>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-11 06:14:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c03be47bdb322300f8e19fd2ca96192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-11 06:14:43</sys_updated_on>
+            <value>closed_rejected</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_choice_5</element>
+            <name>x_294338_demohrser_employeerequest</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-01-09 06:43:46</sys_created_on>
+            <sys_id>79ae9acbdb322300f8e19fd2ca96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_choice_5</sys_name>
+            <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+            <sys_update_name>sys_choice_x_294338_demohrser_employeerequest_u_choice_5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-01-09 06:43:46</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

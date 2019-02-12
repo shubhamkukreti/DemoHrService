@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Employee Boarding" max_length="40" name="x_294338_demohrser_employee_boarding" type="collection">
+        <element label="Boarding User" max_length="32" name="boarding_user" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Complete Address" max_length="40" name="complete_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Manager Email" max_length="40" name="manager_email" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone Number" max_length="40" name="phone_number" type="integer"/>
+        <element label="Birthday" max_length="40" name="u_birthday" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Gender" max_length="40" name="u_gender" type="string">
+            <choice>
+                <element label="Male" sequence="0" value="1"/>
+                <element label="Female" sequence="1" value="2"/>
+                <element label="Other" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Manager" max_length="32" name="u_manager" reference="sys_user" type="reference"/>
+        <element label="New Reference" max_length="32" name="u_reference_1" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+        <index name="index2">
+            <element name="boarding_user"/>
+        </index>
+        <index name="index3">
+            <element name="u_manager"/>
+        </index>
+    </element>
+</database>

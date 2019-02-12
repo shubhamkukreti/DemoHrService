@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="KB Categories - KBv3(Clone_Hr)">2976ab63dbc32300f8e19fd2ca961958</child>
+        <cloned>2019-01-23 11:30:09</cloned>
+        <last_validated>2019-01-23 11:30:09</last_validated>
+        <parent display_value="KB Categories - KBv3">ee307070d7201200a9addd173e24d4da</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;kb&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($scope, spKBCategoryService, $location, $rootScope, urlTools) {
+	var c = this;
+	spKBCategoryService.addDefaultListener(function(catId){
+		$location.search({id: 'kb_category', kb_category: catId});
+	});
+	
+	c.setCategory = function(evt, catId) {
+		evt.preventDefault();
+		var searchParms = $location.search();
+		searchParms.kb_category = catId;
+		searchParms.spa = 1;
+		$location.search(searchParms);
+		spKBCategoryService.setCategoryId(catId);
+	};
+	
+	// Location change handler for back/forward buttons
+	var removeLw = $rootScope.$on('$locationChangeSuccess', function(e, newUrl) {
+		var urlParts = urlTools.parseQueryString(newUrl)
+		if (urlParts.id === 'kb_category' &amp;&amp; spKBCategoryService.getCategoryId() !== urlParts.kb_category)
+			spKBCategoryService.setCategoryId(urlParts.kb_category);
+	});
+	
+	$scope.$on('$destroy', function(){
+		removeLw();
+	});
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.label {
+  float: right;
+}
+
+.panel-body {
+	padding: 0;
+}
+
+fa {
+  margin-right: 10px;
+}
+
+.panel-body &amp;gt; .list-group {
+  margin-bottom: 0px;
+  padding: 10px;
+
+  li.list-group-item {
+    color: #428bca;
+  	border: 0;
+    padding: 5px 5px;
+    margin-bottom: 2px;
+
+    .label {
+      border-radius: 1em;
+      float: right;
+    }
+  }
+}
+&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;KB Categories - KBv3&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	data.catParam = $sp.getParameter("kb_category");
+	data.kb = $sp.getValue("kb_knowledge_base");
+	var cats = new GlideRecord("kb_category");
+	if (data.catParam)
+		cats = $sp.getKBSiblingCategories(data.catParam);
+	else {
+		cats.addActiveQuery();
+		cats.addQuery("parent_id", data.kb);
+		cats.query();
+	}
+
+	data.categories = [];
+	while (cats.next()) {
+		var articleCount = -1;
+		var kbCount = $sp.getKBCount(data.kb);
+		if (kbCount &lt; 500) { // if more than 500 articles, don't iterate to get viewable counts
+			var arts = $sp.getKBCategoryArticleSummaries(cats.getUniqueValue(), 0, 0);
+			articleCount = arts.length;
+		}
+		data.categories.push({label: cats.getDisplayValue("label"), value: cats.getUniqueValue(), count: articleCount});
+	}
+})()
+]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-12-22 21:38:13&lt;/sys_created_on&gt;&lt;sys_id&gt;ee307070d7201200a9addd173e24d4da&lt;/sys_id&gt;&lt;sys_mod_count&gt;176&lt;/sys_mod_count&gt;&lt;sys_name&gt;KB Categories - KBv3&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Knowledge Base" source="com.glide.service-portal.knowledge-base"&gt;263e1d995d921300651727c3e282e82a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_ee307070d7201200a9addd173e24d4da&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2017-08-24 18:55:37&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-{{::c.options.color}} b"&gt;
+  &lt;div class="panel-heading"&gt;
+    &lt;h1 class="h4 panel-title" ng-bind="::c.options.title"&gt;
+      &lt;fa ng-if="c.options.glyph" name="{{c.options.glyph}}" /&gt;
+    &lt;/h1&gt;
+  &lt;/div&gt;
+  &lt;div class="panel-body"&gt;
+    &lt;ul class="list-group"&gt;
+      &lt;li ng-repeat="category in c.data.categories | orderBy:'label'"
+          ng-if="category.count"
+          class="list-group-item"&gt;
+        &lt;a tabindex="0" ng-click="c.setCategory($event, category.value)" ng-href="?id=kb_category&amp;kb_category={{::category.value}}"&gt;
+          &lt;span class="label label-as-badge label-primary" ng-if="category.count &gt; 0" tabindex="-1"&gt;{{::category.count}}&lt;/span&gt;
+          {{::category.label}}
+        &lt;/a&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-01-23 11:30:09</sys_created_on>
+        <sys_id>2d76a3a3dbc32300f8e19fd2ca96196d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2976ab63dbc32300f8e19fd2ca961958</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_2d76a3a3dbc32300f8e19fd2ca96196d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-01-23 11:30:09</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>
