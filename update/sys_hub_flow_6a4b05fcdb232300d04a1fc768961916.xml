@@ -3,7 +3,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <active>false</active>
         <description>To send the task update in Ms-Teams</description>
-        <label_cache>[{"name":"Created or Updated_1.current.state","label":"Trigger➛Employee Tasks Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_294338_demohrser_employee_tasks","column_name":"state"},{"name":"Created or Updated_1.current.u_assigned_to.first_name","label":"Trigger➛Employee Tasks Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"Created or Updated_1.table_name","label":"Trigger➛Employee Tasks Table","reference":"x_294338_demohrser_employee_tasks","reference_display":"Employee Tasks","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Employee Tasks Record➛Task description","reference":"","reference_display":"Task description","type":"string","base_type":"string","parent_table_name":"x_294338_demohrser_employee_tasks","column_name":"short_description"},{"name":"Created or Updated_1.current.u_assigned_to","label":"Trigger➛Employee Tasks Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_294338_demohrser_employee_tasks","column_name":"u_assigned_to"}]</label_cache>
+        <label_cache>[{"name":"Created or Updated_1.current.u_assigned_to","label":"Trigger➛Employee Tasks Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_294338_demohrser_employee_tasks","column_name":"u_assigned_to"},{"name":"Created or Updated_1.current.short_description","label":"Trigger➛Employee Tasks Record➛Task description","reference":"","reference_display":"Task description","type":"string","base_type":"string","parent_table_name":"x_294338_demohrser_employee_tasks","column_name":"short_description"},{"name":"Created or Updated_1.table_name","label":"Trigger➛Employee Tasks Table","reference":"x_294338_demohrser_employee_tasks","reference_display":"Employee Tasks","type":"table_name","base_type":"table_name"},{"name":"Created or Updated_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"Created or Updated_1.current.u_assigned_to.first_name","label":"Trigger➛Employee Tasks Record➛Assigned to➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name"},{"name":"Created or Updated_1.current.state","label":"Trigger➛Employee Tasks Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_294338_demohrser_employee_tasks","column_name":"state"}]</label_cache>
         <latest_snapshot display_value="Task Notification Ms-Teams">8ca231f4dba32300d04a1fc7689619cc</latest_snapshot>
         <name>Task Notification Ms-Teams</name>
         <remote_trigger_id>48a231f4dba32300d04a1fc7689619e1</remote_trigger_id>
@@ -13,13 +13,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-02-08 07:40:18</sys_created_on>
         <sys_id>6a4b05fcdb232300d04a1fc768961916</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>Task Notification Ms-Teams</sys_name>
         <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
         <sys_update_name>sys_hub_flow_6a4b05fcdb232300d04a1fc768961916</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-11 09:49:25</sys_updated_on>
+        <sys_updated_on>2019-02-26 12:27:58</sys_updated_on>
     </sys_hub_flow>
 </record_update>

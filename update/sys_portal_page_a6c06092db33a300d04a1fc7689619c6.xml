@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2019-02-27 06:28:34">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout/>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-25 06:41:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a6c06092db33a300d04a1fc7689619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_portal_page_a6c06092db33a300d04a1fc7689619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-25 06:41:12</sys_updated_on>
+        <title>PA New Tab</title>
+        <user/>
+        <view>pa_new_tab_18</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">a6c06092db33a300d04a1fc7689619c6</page>
+                <summary>Running Workflow Contexts</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-02-25 06:42:17</sys_created_on>
+                <sys_id>6201e092db33a300d04a1fc768961940</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-02-25 06:42:17</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">22c06092db33a300d04a1fc7689619c7</grid_canvas>
+                        <height>8</height>
+                        <portal_widget display_value="Created 2019-02-25 12:12:17">6201e092db33a300d04a1fc768961940</portal_widget>
+                        <posx>0</posx>
+                        <posy>0</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:42:17</sys_created_on>
+                        <sys_id>2601e092db33a300d04a1fc768961941</sys_id>
+                        <sys_mod_count>7</sys_mod_count>
+                        <sys_name>22c06092db33a300d04a1fc7689619c7</sys_name>
+                        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_2601e092db33a300d04a1fc768961941</sys_update_name>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:59:09</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-02-25 12:12:17">6201e092db33a300d04a1fc768961940</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:42:17</sys_created_on>
+                        <sys_id>6601e092db33a300d04a1fc768961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:42:17</sys_updated_on>
+                        <value>20c76676eb412100ec9a82810206fefe</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-02-25 12:12:17">6201e092db33a300d04a1fc768961940</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:42:17</sys_created_on>
+                        <sys_id>6e01e092db33a300d04a1fc768961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:42:17</sys_updated_on>
+                        <value>Running Workflow Contexts</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-02-25 12:12:17">6201e092db33a300d04a1fc768961940</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:42:17</sys_created_on>
+                        <sys_id>aa01e092db33a300d04a1fc768961940</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:42:17</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">a6c06092db33a300d04a1fc7689619c6</page>
+                <summary>Boarding User Request</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                <sys_id>8793e8d2db33a300d04a1fc76896192f</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">22c06092db33a300d04a1fc7689619c7</grid_canvas>
+                        <height>7</height>
+                        <portal_widget display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_widget>
+                        <posx>0</posx>
+                        <posy>16</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>c393e8d2db33a300d04a1fc768961931</sys_id>
+                        <sys_mod_count>4</sys_mod_count>
+                        <sys_name>22c06092db33a300d04a1fc7689619c7</sys_name>
+                        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_c393e8d2db33a300d04a1fc768961931</sys_update_name>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:59:21</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>0b93e8d2db33a300d04a1fc768961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>4793e8d2db33a300d04a1fc768961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>8393e8d2db33a300d04a1fc768961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>8b93e8d2db33a300d04a1fc76896192f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                        <value>0995e8a4dbe32300d04a1fc7689619a1</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>cb93e8d2db33a300d04a1fc768961930</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                        <value>Boarding User Request</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-02-25 12:23:32">8793e8d2db33a300d04a1fc76896192f</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:53:32</sys_created_on>
+                        <sys_id>cf93e8d2db33a300d04a1fc76896192f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:53:32</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA New Tab">a6c06092db33a300d04a1fc7689619c6</page>
+                <summary>My Pending Approvals</summary>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2019-02-25 06:50:44</sys_created_on>
+                <sys_id>9ef26892db33a300d04a1fc7689619af</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2019-02-25 06:50:44</sys_updated_on>
+                <related_items_node>
+                    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+                        <grid_canvas display_value="PA New Tab">22c06092db33a300d04a1fc7689619c7</grid_canvas>
+                        <height>8</height>
+                        <portal_widget display_value="Created 2019-02-25 12:20:44">9ef26892db33a300d04a1fc7689619af</portal_widget>
+                        <posx>0</posx>
+                        <posy>8</posy>
+                        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:50:44</sys_created_on>
+                        <sys_id>52f26892db33a300d04a1fc7689619b1</sys_id>
+                        <sys_mod_count>6</sys_mod_count>
+                        <sys_name>22c06092db33a300d04a1fc7689619c7</sys_name>
+                        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+                        <sys_policy/>
+                        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+                        <sys_update_name>sys_grid_canvas_pane_52f26892db33a300d04a1fc7689619b1</sys_update_name>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:59:21</sys_updated_on>
+                        <width>12</width>
+                    </sys_grid_canvas_pane>
+                </related_items_node>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2019-02-25 12:20:44">9ef26892db33a300d04a1fc7689619af</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:50:44</sys_created_on>
+                        <sys_id>92f26892db33a300d04a1fc7689619b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:50:44</sys_updated_on>
+                        <value>e95e898ac0a8010a012773457de15088</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2019-02-25 12:20:44">9ef26892db33a300d04a1fc7689619af</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:50:44</sys_created_on>
+                        <sys_id>9af26892db33a300d04a1fc7689619b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:50:44</sys_updated_on>
+                        <value>My Pending Approvals</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2019-02-25 12:20:44">9ef26892db33a300d04a1fc7689619af</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2019-02-25 06:50:44</sys_created_on>
+                        <sys_id>d6f26892db33a300d04a1fc7689619b0</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2019-02-25 06:50:44</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderDashboard</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>
