@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>When a user requests for approval (Leave).</description>
+        <label_cache>[{"name":"Created or Updated_1.current.u_request_status","label":"Trigger➛EmployeeRequest Record➛Request Status","reference":"","reference_display":"Request Status","type":"choice","base_type":"choice","parent_table_name":"x_294338_demohrser_employeerequest","column_name":"u_request_status","choices":[{"reference":false,"used":false,"label":"Request Open","image":"","rawLabel":"Request Open","missing":false,"selected":false,"value":"1"},{"reference":false,"used":false,"label":"Request In Progress","image":"","rawLabel":"Request In Progress","missing":false,"selected":false,"value":"2"},{"reference":false,"used":false,"label":"Closed \u0026 Accepted","image":"","rawLabel":"Closed \u0026 Accepted","missing":false,"selected":false,"value":"3"},{"reference":false,"used":false,"label":"Closed \u0026 Rejected","image":"","rawLabel":"Closed \u0026 Rejected","missing":false,"selected":false,"value":"4"}]},{"name":"Created or Updated_1.current.u_employee_id","label":"Trigger➛EmployeeRequest Record➛Employee_Id","reference":"","reference_display":"Employee_Id","type":"string","base_type":"string","parent_table_name":"x_294338_demohrser_employeerequest","column_name":"u_employee_id"},{"name":"Created_1.current.u_email","label":"Trigger➛EmployeeRequest Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_294338_demohrser_employeerequest","column_name":"u_email"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","type":"reference","base_type":"reference"}]</label_cache>
+        <name>HR_App_Approval_Flow</name>
+        <parent_flow display_value="HR_App_Approval_Flow">00392609db003300d04a1fc768961978</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 06:37:43</sys_created_on>
+        <sys_id>5f46b281db403300d04a1fc768961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR_App_Approval_Flow</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_5f46b281db403300d04a1fc768961928</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 06:37:43</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

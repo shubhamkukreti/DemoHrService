@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>When a user requests for approval (Leave).</description>
+        <label_cache>[{"name":"Created_1.current.u_email","label":"Trigger➛EmployeeRequest Record➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"x_294338_demohrser_employeerequest","column_name":"u_email"},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","type":"reference","base_type":"reference"}]</label_cache>
+        <name>HR_App_Approval_Flow</name>
+        <parent_flow display_value="HR_App_Approval_Flow">00392609db003300d04a1fc768961978</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 06:05:13</sys_created_on>
+        <sys_id>53dea601db403300d04a1fc7689619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HR_App_Approval_Flow</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_53dea601db403300d04a1fc7689619fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 06:05:13</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

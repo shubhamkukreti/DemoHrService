@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_item">
+    <menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <detail_page/>
+        <iframe/>
+        <image/>
+        <logged_on>false</logged_on>
+        <menu_section display_value="Employee">d74989b6db803300d04a1fc7689619c0</menu_section>
+        <name>Request's</name>
+        <order>200</order>
+        <roles>x_294338_demohrser.Hr_Employee</roles>
+        <sys_class_name>menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:50:38</sys_created_on>
+        <sys_id>9510a5b2dbc03300d04a1fc768961977</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Request's</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>menu_item_9510a5b2dbc03300d04a1fc768961977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 12:49:07</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url/>
+    </menu_item>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height>24</image_height>
+        <image_width>24</image_width>
+        <size_bytes>423</size_bytes>
+        <size_compressed>446</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:50:46</sys_created_on>
+        <sys_id>f62021b2dbc03300d04a1fc7689619c7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 10:50:46</sys_updated_on>
+        <table_name>ZZ_YYmenu_item</table_name>
+        <table_sys_id>9510a5b2dbc03300d04a1fc768961977</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="f62021b2dbc03300d04a1fc7689619c7">f62021b2dbc03300d04a1fc7689619c7</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:50:46</sys_created_on>
+        <sys_id>3a2021b2dbc03300d04a1fc7689619c7</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AacBWP6JUE5HDQoaCgAAAA1JSERSAAAAGAAAABgIBgAAAOB3PfgAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAAATxJREFUSEvt07FKw1AYxfFAtYtYXaQ+gG4uOjg5+gAiKIIOgu6uvoGL1BcQVxEHnboIpVSpuLk7uNTZQVDUiv2fJJ9ewaS5MYKDB360+e4lp0ma4D++mS9IYt4LkhgtHuK7X5XFPvoW7ERfP1KNP91oNoVSePSZbXgVLOAVtfAoyiqecYxBDZx4F4ziHm+Y0IDc4QZlzGEZFu8CZRy7uMYQnqB9R3jAJiy5Ciy6gia0x1xBpZbcBcNoQesvWMc0fvyQlQouoDU9cN3zA5xDxW68C3TyS2jexRJmoSLN2hiBxbtgC3byFQ3i6Co005r2WLwLJnGKxfDoazQ7gf19ldwPOWsyFdziLLYBZQZ12DyJXsDUAnezXc0aHqE32F1Pkykq6MSfDYyh0OjEsocBDYqObotuz69FD/avJwh6Z5GIpjWLX2sAAAAASUVORK5CYIJAF087pwEAAA==</data>
+        <length>584</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="f62021b2dbc03300d04a1fc7689619c7">f62021b2dbc03300d04a1fc7689619c7</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:50:46</sys_created_on>
+        <sys_id>ba2021b2dbc03300d04a1fc7689619c7</sys_id>
+    </sys_attachment_doc>
+</record_update>

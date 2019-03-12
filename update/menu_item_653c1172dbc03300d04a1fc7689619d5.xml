@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="menu_item">
+    <menu_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <description/>
+        <detail_page/>
+        <iframe/>
+        <image/>
+        <logged_on>false</logged_on>
+        <menu_section display_value="Knowledge">6c9985b6db803300d04a1fc7689619b2</menu_section>
+        <name>Common Answers</name>
+        <order>400</order>
+        <roles/>
+        <sys_class_name>menu_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:35:01</sys_created_on>
+        <sys_id>653c1172dbc03300d04a1fc7689619d5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Common Answers</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>menu_item_653c1172dbc03300d04a1fc7689619d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-12 05:52:53</sys_updated_on>
+        <tag/>
+        <target>internal</target>
+        <type>url</type>
+        <url/>
+    </menu_item>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#0</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height>24</image_height>
+        <image_width>24</image_width>
+        <size_bytes>273</size_bytes>
+        <size_compressed>268</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:35:08</sys_created_on>
+        <sys_id>c29c1132dbc03300d04a1fc768961970</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 10:35:08</sys_updated_on>
+        <table_name>ZZ_YYmenu_item</table_name>
+        <table_sys_id>653c1172dbc03300d04a1fc7689619d5</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="c29c1132dbc03300d04a1fc768961970">c29c1132dbc03300d04a1fc768961970</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:35:08</sys_created_on>
+        <sys_id>069c1132dbc03300d04a1fc768961970</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSEiDMwQYkH5Tb/gBSjMVB7k4M687JvARyWNIdfR0ZGDb2c/9JZAXyOQs8IosZGPgOgzDj8fwVKUDBZZ4ujiEe3m+nOnIdChBhrrZ2fF/P+FXu12YOnoesvy6msqd9VXu7zlav7unGGn179dDq+DCZWdcn8Vs8Lo4sTLG4s3ESo/sVH/PIkw3KWctmr0k5IGh62TfM6EHHrJdq2pIFLmdLJk/lsViUtuukF5tMoPHdFFXmvhUz8zYBtVkDlWUcxyb84/dzq4vnk5+rVv3IrSyc9vgHE6sQc2BxIsNaoIsZPF39XNY5JTQBAN+MQckRAQAA</data>
+        <length>344</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="c29c1132dbc03300d04a1fc768961970">c29c1132dbc03300d04a1fc768961970</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 10:35:08</sys_created_on>
+        <sys_id>869c1132dbc03300d04a1fc768961970</sys_id>
+    </sys_attachment_doc>
+</record_update>

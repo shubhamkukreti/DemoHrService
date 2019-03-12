@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>8</height>
+        <image/>
+        <name>NavBar_Home.png</name>
+        <size_bytes>299</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 11:47:58</sys_created_on>
+        <sys_id>fc2da9badbc03300d04a1fc7689619d1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NavBar_Home.png</sys_name>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>db_image_fc2da9badbc03300d04a1fc7689619d1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 11:57:50</sys_updated_on>
+        <thumbnail/>
+        <width>8</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height>8</image_height>
+        <image_width>8</image_width>
+        <size_bytes>299</size_bytes>
+        <size_compressed>312</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 11:57:50</sys_created_on>
+        <sys_id>258f2dfadbc03300d04a1fc768961965</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-11 11:57:51</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>fc2da9badbc03300d04a1fc7689619d1</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="258f2dfadbc03300d04a1fc768961965">258f2dfadbc03300d04a1fc768961965</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 11:57:50</sys_created_on>
+        <sys_id>658f2dfadbc03300d04a1fc768961965</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCQLSHCDMwQYkj/Dv6wZSLMVOniEcQFDDkdIB5DMWB7k7Maw7J/MSJJnu6OvIwLCxn/tPIiuQz1ngEVnMwMB3BIQZp2rzSQMFN3i6OIZoBLv223K1GAi0zt/1r6GCQdrzfWrTkvORW7ZfSI7orOV6fSUpOzdTcsKbcw/e1QncO/3krAHnH3abnNvHoq6ban/kjsje+N56k07y+zmHDXgqLj7etc6ijzkqe5dSl9Kc5yftDI79eL1LYemTQ9NTIwNEWA+Z+AZOexr8z7n6SCHPBb7HFpN+rHtdc3vbm9/70nk15z63LOdUDAgVrZby/6A/a1ljEJfnpAf78u0umyTOS9/DWDUl1NVJYVkI0O0Mnq5+LuucEpoAio3OrSsBAAA=</data>
+        <length>404</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="258f2dfadbc03300d04a1fc768961965">258f2dfadbc03300d04a1fc768961965</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-11 11:57:50</sys_created_on>
+        <sys_id>e58f2dfadbc03300d04a1fc768961965</sys_id>
+    </sys_attachment_doc>
+</record_update>

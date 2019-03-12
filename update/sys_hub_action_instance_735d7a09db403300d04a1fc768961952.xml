@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Post a Message">549822431324030039a039ed9344b085</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Post a Message">549822431324030039a039ed9344b085</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Task Notification Ms-Teams">2f5d7a09db403300d04a1fc76896194a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 07:08:36</sys_created_on>
+        <sys_id>735d7a09db403300d04a1fc768961952</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
+        <sys_update_name>sys_hub_action_instance_735d7a09db403300d04a1fc768961952</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 07:08:36</sys_updated_on>
+        <ui_id>b6e6a6b5-f6f8-41cb-972b-e68dc1f57bc9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=735d7a09db403300d04a1fc768961952"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>735d7a09db403300d04a1fc768961952</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 07:08:36</sys_created_on>
+        <sys_id>375d7a09db403300d04a1fc768961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 07:08:36</sys_updated_on>
+        <value>Employee Task Updated</value>
+        <variable display_value="">f49822431324030039a039ed9344b0bb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>735d7a09db403300d04a1fc768961952</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 07:08:36</sys_created_on>
+        <sys_id>f75d7a09db403300d04a1fc768961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 07:08:36</sys_updated_on>
+        <value>https://outlook.office.com/webhook/12fbaca4-6508-48d5-808d-53038a394908@ecefbb66-e571-4a04-ad37-82492edec860/IncomingWebhook/8402a3fa677643d09d72290dca3b330a/91c0e98d-1bfb-4282-8830-467a0be1f7d5</value>
+        <variable display_value="">689822431324030039a039ed9344b088</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=735d7a09db403300d04a1fc768961952"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_message</field>
+        <id>735d7a09db403300d04a1fc768961952</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 07:08:36</sys_created_on>
+        <sys_id>3f5d7a09db403300d04a1fc768961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 07:08:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value>Hi  {{Created or Updated_1.current.u_assigned_to.first_name}} there is a update for you.  {{Created or Updated_1.current.short_description}}   </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_title</field>
+        <id>735d7a09db403300d04a1fc768961952</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 07:08:36</sys_created_on>
+        <sys_id>ff5d7a09db403300d04a1fc768961954</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 07:08:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_webhook_url</field>
+        <id>735d7a09db403300d04a1fc768961952</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-06 07:08:36</sys_created_on>
+        <sys_id>b35d7a09db403300d04a1fc768961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-06 07:08:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_549822431324030039a039ed9344b085</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
