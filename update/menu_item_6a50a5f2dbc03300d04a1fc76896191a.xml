@@ -4,7 +4,7 @@
         <active>true</active>
         <category/>
         <description/>
-        <detail_page/>
+        <detail_page display_value="Hr_Site_Approval">22909184db503300d04a1fc7689619ec</detail_page>
         <iframe/>
         <image/>
         <logged_on>false</logged_on>
@@ -16,17 +16,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-11 10:51:44</sys_created_on>
         <sys_id>6a50a5f2dbc03300d04a1fc76896191a</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Approval's</sys_name>
         <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
         <sys_update_name>menu_item_6a50a5f2dbc03300d04a1fc76896191a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-11 12:49:28</sys_updated_on>
+        <sys_updated_on>2019-03-18 05:03:25</sys_updated_on>
         <tag/>
         <target>internal</target>
-        <type>url</type>
+        <type>content_page</type>
         <url/>
     </menu_item>
     <sys_attachment action="INSERT_OR_UPDATE">

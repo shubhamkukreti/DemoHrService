@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="content_block_header">
     <content_block_header action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <background>image</background>
         <bg_color>#ffffff</bg_color>
         <bg_image/>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-03-01 05:42:54</sys_created_on>
         <sys_id>023978abdbff6300d04a1fc768961958</sys_id>
-        <sys_mod_count>33</sys_mod_count>
+        <sys_mod_count>36</sys_mod_count>
         <sys_name>Hr_Portal_header</sys_name>
         <sys_package display_value="DemoHRServiceDesk" source="x_294338_demohrser">af11cda2dbf22300f8e19fd2ca9619a3</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoHRServiceDesk">af11cda2dbf22300f8e19fd2ca9619a3</sys_scope>
         <sys_update_name>content_block_header_023978abdbff6300d04a1fc768961958</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-03-07 11:43:30</sys_updated_on>
+        <sys_updated_on>2019-03-15 07:09:07</sys_updated_on>
         <text/>
         <top_color>#eeeeee</top_color>
         <top_menu display_value="HR_App_UserSetting_Menu">687d0da0db803300d04a1fc768961951</top_menu>
